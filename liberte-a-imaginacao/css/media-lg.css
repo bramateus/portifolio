@@ -1,0 +1,115 @@
+@media (min-width: 1200px) and (max-width: 1440px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top;
+        background-size: cover;
+        zoom: 80%;
+    }
+
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        border-radius: 20px;
+        max-width: 300px;
+        right: 0px;
+        margin-right: 50px;
+        margin-top: 40px;
+
+    }
+
+    .box p {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-right: 50% !important;
+        margin-top: 120px;
+        width: 100%;
+
+        
+     /*   visibility: hidden;*/
+    }
+
+    .conteudo-b {
+        /*visibility: hidden;*/
+        margin-top: 75px;
+    }
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+        margin-top: 420px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .scene {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  right: 0;
+  /*border-bottom: 100px solid #342a2a;*/
+  height: 100%;
+}
+.scene > div {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.scene > div.clouds {
+  width: 110%;
+  /*height: 100%*/
+  /*left: 50%;*/
+  /*margin-left: -50px;*/
+  height: 500px;
+  bottom: -50px;
+  background: url("../img/cloud1.png") ;
+
+}
+
+.scene > div.cloud-top {
+  width: 40%;
+  /*height: 100%*/
+  /*left: 50%;*/
+  /*margin-left: -447px;*/
+  height: 100%;
+  top: 0px;
+  background: url("../img/cloud-top.png");
+  background-repeat: repeat-x;
+}
+.scene > div.fly {
+  width: 50%;
+  /*height: 00%*/
+  /*left: 50%;*/
+  /*margin-left: -447px;*/
+  height: 100%;
+  top: 30%;
+  background: url("../img/flying.png") no-repeat;
+  z-index: 9
+}
+
+   
+
+  
+
+}

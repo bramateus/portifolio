@@ -1,0 +1,52 @@
+@media (min-width: 1px) and (max-width: 320px) {
+  body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat  center top;
+    }
+
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+        position: absolute !important;
+        border-radius: 20px;
+        max-width: 320px;
+        top: 650px;
+        left: 50px;
+        right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .box p {
+        font-size: 15px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .conteudo-a {
+
+    }
+
+    .conteudo-b {
+
+    margin-top: 100px;
+    zoom: 70%;
+
+    }
+
+
+    .conteudo-tkp-a {
+        margin-top: 10px;
+    }
+
+  
+}

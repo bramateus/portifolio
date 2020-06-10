@@ -1,0 +1,108 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat fixed center top;
+    }
+    .bodytkp {
+        background-origin: content-box;
+        background: url('../img/bg_fundo_xl.jpg') no-repeat center top !important;
+    }
+
+    .box {
+        display: inline;
+        position: absolute !important;
+        border-radius: 20px;
+        max-width: 60%;
+        top: 520px;
+        left: 0;
+        right: 0;
+        margin: 0 auto 50px;
+    }
+
+    .box p {
+        font-size: 18px;
+        font-weight: normal;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteudo-a {
+        margin-top: 25px;
+        margin-left: -15px !important;
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    .conteudo-b {
+        /*visibility: hidden;*/
+        margin-top: 40px;
+    }
+
+
+    /* QUEBRA */
+   /* @media (min-width: 768px) and (max-width: 856px) {
+        .conteudo-a {
+            margin-left: 0px !important;
+            width: 100%;
+                    }
+
+    }*/
+    
+
+
+    
+    .scene {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  right: 0;
+  /*border-bottom: 100px solid #342a2a;*/
+  height: 100%;
+}
+.scene > div {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.scene > div.clouds {
+  width: 110%;
+  /*height: 100%*/
+  /*left: 50%;*/
+  /*margin-left: -50px;*/
+  height: 500px;
+  bottom: -50px;
+  background: url("../img/cloud1.png") ;
+
+}
+
+.scene > div.cloud-top {
+  width: 40%;
+  /*height: 100%*/
+  /*left: 50%;*/
+  /*margin-left: -447px;*/
+  height: 100%;
+  top: 0px;
+  background: url("../img/cloud-top.png");
+  background-repeat: repeat-x;
+  display: none;
+}
+.scene > div.fly {
+  width: 50%;
+  /*height: 00%*/
+  /*left: 50%;*/
+  /*margin-left: -447px;*/
+  height: 100%;
+  top: 30%;
+  background: url("../img/flying.png") no-repeat;
+  z-index: 9;
+  display: none;
+}
+    
+}
